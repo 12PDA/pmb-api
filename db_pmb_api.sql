@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 10, 2024 at 04:55 PM
+-- Generation Time: Jul 10, 2024 at 05:18 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.1.17
 
@@ -67,7 +67,8 @@ INSERT INTO `mahasiswa` (`mahasiswa_id`, `nama`, `tgl_lahir`, `alamat`, `telepon
 (1, 'Praditasari D A', '2000-08-12', 'Permata Regency', '0882009889699', 'praditasari.dyah61@gmail.com', 'SMK', 'Teknik Informatika', 'berkas-praditasari.pdf'),
 (3, 'Risya Putri Afifah', '2000-01-24', 'Petemon Barat XI A/07', '082334718378', 'afifahrisya@gmail.com', 'SMA', 'Teknik Elektro', 'berkas-risya-afifah.pdf'),
 (4, 'Lembayung Gendhis Btari', '2001-07-22', 'Western Villge A3 no. 5', '081773928379', 'lembayungbtari@gmail.com', 'SMA', 'Psikolog', 'berkas-lembayung.pdf'),
-(5, 'Alkan Ganendra', '1998-11-18', 'Dreaming Land BE-8', '085227321562', 'alkanganendra@gmail.com', 'SMK', 'Teknik Perairan', 'berkas-alkan-ganendra.pdf');
+(5, 'Alkan Ganendra', '1998-11-18', 'Dreaming Land BE-8', '085227321562', 'alkanganendra@gmail.com', 'SMK', 'Teknik Perairan', 'berkas-alkan-ganendra.pdf'),
+(6, 'Adiar Locana', '1999-02-05', 'Bantaran Barat IVB no. 10', '081777293817', 'adiarlocana10@gmail.com', 'SMK', 'Teknik Informatika', 'berkas-adiar-locana.pdf');
 
 -- --------------------------------------------------------
 
@@ -127,7 +128,7 @@ ALTER TABLE `dokumen`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `mahasiswa_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `mahasiswa_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `seleksi`
