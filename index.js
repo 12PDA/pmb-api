@@ -9,10 +9,12 @@ app.use(bodyParser.json())
 const studentsRouter = require('./routes/students');
 const resultsRouter = require('./routes/results');
 const documentsRouter = require('./routes/documents');
+const registersRouter = require('./routes/registers');
 
 app.use('/students', studentsRouter);
 app.use('/results', resultsRouter);
 app.use('/documents', documentsRouter);
+app.use('/register', registersRouter);
   
 app.listen(port, () => {
 console.log(`Program dijalankan di http://localhost:${port}`)
